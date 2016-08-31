@@ -23,6 +23,7 @@ This image comes with the following packages preinstalled:
 - [Jasmine](http://jasmine.github.io/)
 - [RequireJS](http://requirejs.org/)
 - [Babel Polyfill](https://babeljs.io/docs/usage/polyfill/)
+- [Bower](https://bower.io/)
 
 If you are using promises in your tests, make sure to add the polyfill file to your karma.conf.js file:
 ```
