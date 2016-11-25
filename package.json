@@ -8,6 +8,7 @@
     "chai": "3",
     "jasmine-core": "2",
     "karma-chai": "0",
+    "karma-coverage": "1",
     "karma-jasmine": "1",
     "karma-mocha": "0",
     "karma-phantomjs-launcher": "1",
