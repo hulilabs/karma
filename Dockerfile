@@ -6,8 +6,9 @@ ENV PHANTOMJS_DIR /phantomjs
 ENV PATH $PHANTOMJS_DIR/bin:$PATH
 
 # Install PhantomJS
-RUN wget -q --continue -P $PHANTOMJS_DIR "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-${PHANTOMJS_VERSION}-linux-x86_64.tar.bz2" \
-    && tar -xaf $PHANTOMJS_DIR/phantomjs* --strip-components=1 --directory "$PHANTOMJS_DIR" \
+RUN mkdir -p $PHANTOMJS_DIR \
+    && wget --local-encoding=UTF-8 -O $PHANTOMJS_DIR/phantomjs-${PHANTOMJS_VERSION}-linux-x86_64.tar.bz2 "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-${PHANTOMJS_VERSION}-linux-x86_64.tar.bz2" \
+    && tar -xaf $PHANTOMJS_DIR/phantomjs-${PHANTOMJS_VERSION}-linux-x86_64.tar.bz2 --strip-components=1 --directory "$PHANTOMJS_DIR" \
     && rm -f $PHANTOMJS_DIR/phantomjs*
 
 # Set the node modules path
