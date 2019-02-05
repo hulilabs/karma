@@ -7,6 +7,7 @@
     "bower": "1",
     "chai": "3",
     "jasmine-core": "2",
+    "karma": "1",
     "karma-chai": "0",
     "karma-coverage": "1",
     "karma-jasmine": "1",
@@ -14,9 +15,10 @@
     "karma-phantomjs-launcher": "1",
     "karma-requirejs": "1",
     "karma-sinon": "1",
-    "karma": "1",
+    "karma-webpack": "3.0.5",
     "mocha": "3",
     "requirejs": "2",
-    "sinon": "1"
+    "sinon": "1",
+    "webpack": "4.20.2"
   }
 }
