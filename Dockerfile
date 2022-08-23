@@ -1,4 +1,4 @@
-FROM node:16.17.0
+FROM node:16-alpine
 
 # PhantomJS variables
 ENV PHANTOMJS_VERSION 2.1.1
