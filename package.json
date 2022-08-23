@@ -9,6 +9,7 @@
     "jasmine-core": "2",
     "karma": "1",
     "karma-chai": "0",
+    "karma-chrome-launcher": "^2.2.0",
     "karma-coverage": "1",
     "karma-jasmine": "1",
     "karma-mocha": "0",
@@ -20,5 +21,8 @@
     "requirejs": "2",
     "sinon": "1",
     "webpack": "4.20.2"
+  },
+  "engines": {
+    "node": ">=12.13.0"
   }
 }
