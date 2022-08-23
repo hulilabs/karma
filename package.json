@@ -20,5 +20,8 @@
     "requirejs": "2",
     "sinon": "1",
     "webpack": "4.20.2"
+  },
+  "engines": {
+    "node": ">=8.9.0"
   }
 }
