@@ -4,23 +4,20 @@
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "6",
-    "bower": "1",
     "chai": "3",
     "jasmine-core": "2",
-    "karma": "1",
-    "karma-chai": "0",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-coverage": "1",
-    "karma-jasmine": "1",
-    "karma-mocha": "0",
     "karma-phantomjs-launcher": "1",
-    "karma-requirejs": "1",
-    "karma-sinon": "1",
-    "karma-webpack": "3.0.5",
+    "karma": "^6.4.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-coverage": "^2.2.0",
+    "karma-firefox-launcher": "^2.1.2",
+    "karma-mocha": "^2.0.1",
+    "karma-requirejs": "^1.1.0",
+    "karma-sinon": "^1.0.5",
+    "karma-vite": "^1.0.3",
     "mocha": "3",
-    "requirejs": "2",
-    "sinon": "1",
-    "webpack": "4.20.2"
+    "sinon": "1"
   },
   "engines": {
     "node": ">=12.13.0"

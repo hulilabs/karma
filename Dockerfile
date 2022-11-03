@@ -1,4 +1,4 @@
-FROM node:12
+FROM node
 
 # PhantomJS variables
 ENV PHANTOMJS_VERSION 2.1.1
